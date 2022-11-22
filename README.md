@@ -1,4 +1,4 @@
 # database-bank
-Contributors 
-shamim sherafati
-abhi 
+Contributors:
+1. Shamim Sherafati
+2. Abhilash Dikshit
