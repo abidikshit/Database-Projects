@@ -36,32 +36,50 @@ GO
 -- VIEW DEFINATION OF TABLE BANK
 sp_help bank
 GO
+--INSERT MULTIPLE RECORDS (ADDED WRONG DATA INTENTIONALLY)
+INSERT INTO bank VALUES
+  (11, 'Sciotia Bank', 'West Georgia Street','Public'),
+  (12, 'CIBC Bank', 'West Georgia Street','Private'),
+  (13, 'TD Bank', 'West Georgia Street','Public');
+GO
+--UPDATE SINGLE RECORD
+UPDATE bank SET ba_name='Scotia Bank' WHERE ba_code=11;
+GO
+--UPDATE RECORD IN SPECIFIC COLUMN
+UPDATE loan SET loan_interest=15 WHERE loan_type='Mortgage';
+UPDATE loan SET loan_interest=10 WHERE loan_type='Credit-Builder';
+UPDATE loan SET loan_interest=8 WHERE loan_type='Home Equity';
+GO
+--UPDATE E_AGE IN TABLE EMPLOYEE
+UPDATE employee SET e_age = DATEDIFF(MONTH,e_dob,GETDATE())/12;
+GO
 --DELETE ROW WITH NULL VALUE
 DELETE FROM loan WHERE[loan_id] IS NULL
 GO
---DELETE SINGLE RECORD
-DELETE FROM loan WHERE LOAN_ID=426436789;
-GO
---INSERT SINGLE RECORD (ADDED WRONG DATA INTENTIONALLY)
-INSERT INTO loan VALUES('Savings_Acc', 426436789, 50000,24,3.4);
-GO
---UPDATE SINGLE RECORD
-UPDATE loan SET LOAN_TYPE='Student_Gen' WHERE LOAN_ID=426436789;
-GO
---UPDATE RECORD IN SPECIFIC COLUMN
-UPDATE loan SET LOAN_DURATION=12 WHERE LOAN_ID=426436797;
+--DELETE MULTIPLE RECORDS BETWEEN CERTAIN RANGE
+DELETE FROM bank WHERE ba_code BETWEEN 11 AND 13;
 GO
 --ALTER TABLE BY ADDING A COLUMN
-ALTER TABLE customer ADD address char(50)
-GO 
+ALTER TABLE customer ADD c_age INT
+GO
+--UPDATE COLUMN C_AGE USING C_DOB
+UPDATE customer SET c_age = DATEDIFF(MONTH,c_dob,GETDATE())/12;
+GO
+--ALTER TABLE BY DROPPING A COLUMN
+ALTER TABLE customer DROP COLUMN c_age
+GO
+--ALTER TABLE BY CHANGING DATATYPE OF A COLUMN (Change N* datatypes as takes up 2 times the space of their "normal" pendants)
+ALTER TABLE customer ALTER COLUMN c_name VARCHAR(30)
+ALTER TABLE employee ALTER COLUMN e_name VARCHAR(30)
+GO
 --MAX AND MIN FUNCTION
 SELECT MAX(e_age) FROM employee;
 GO
 SELECT MIN(e_age) FROM employee;
 GO
-SELECT MAX(c_dob) FROM customer;
+SELECT MAX(acc_balance) FROM account;
 GO
-SELECT MIN(c_dob) FROM customer;
+SELECT MIN(acc_balance) FROM account;
 GO
 SELECT MAX(loan_amount) FROM loan;
 GO
