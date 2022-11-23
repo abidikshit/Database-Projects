@@ -21,6 +21,11 @@
 * Week 4:
 * Week 5: Final Project on MongoDB (via Cosmos DB managed service)
 
+## MIT
+### The MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+
 <p align="center">
   <img width="100" height="100" src="/images/NuLogo.png">
 </p>
