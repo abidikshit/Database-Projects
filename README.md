@@ -1,5 +1,4 @@
 ![](NU.png)
-Northeastern University- Vancouver, Canada
 
 ## Database: Bank
 
@@ -22,6 +21,7 @@ Northeastern University- Vancouver, Canada
 * Week 4:
 * Week 5: Final Project on MongoDB (via Cosmos DB managed service)
 
-![](NuLogo.png)
-
+<p align="center">
+  <img width="100" height="100" src="NuLogo.png">
+</p>
 
