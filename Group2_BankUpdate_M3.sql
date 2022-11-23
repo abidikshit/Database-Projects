@@ -88,9 +88,7 @@ GO
 --SUM FUNCTION
 SELECT SUM(loan_amount) AS 'SUM' FROM loan;
 GO
-SELECT SUM(e_id) AS 'SUM' FROM employee;
-GO
-SELECT SUM(c_id) AS 'SUM' FROM customer;
+SELECT SUM(loan_interest) AS 'SUM' FROM loan;
 GO
 --COUNT FUNCTION WITH DISTINCT VALUES
 SELECT COUNT(DISTINCT ba_type) FROM bank;
@@ -104,5 +102,5 @@ SELECT AVG(acc_balance) AS 'AVERAGE' FROM account;
 GO
 SELECT AVG(loan_amount) AS 'AVERAGE' FROM loan;
 GO
-SELECT AVG(e_id) AS 'AVERAGE' FROM employee;
+SELECT AVG(e_age) AS 'AVERAGE' FROM employee;
 GO
