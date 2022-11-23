@@ -1,4 +1,4 @@
-![](NU.png)
+![](/images/NU.png)
 
 ## Database: Bank
 
@@ -11,8 +11,8 @@
 ## Project Details 
 
 #### Useful scripts:
-- [Group2_Bank_M2.sql](Group2_Bank_M2.sql)
-- [Group2_BankUpdate_M3.sql](Group2_BankUpdate_M3.sql)
+- [Group2_Bank_M2.sql](/Scripts/Group2_Bank_M2.sql)
+- [Group2_BankUpdate_M3.sql](/Scripts/Group2_BankUpdate_M3.sql)
 
 #### Assignments:
 * Week 1: ERD Report + Diagram
@@ -22,6 +22,6 @@
 * Week 5: Final Project on MongoDB (via Cosmos DB managed service)
 
 <p align="center">
-  <img width="100" height="100" src="NuLogo.png">
+  <img width="100" height="100" src="/images/NuLogo.png">
 </p>
 
