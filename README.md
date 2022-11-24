@@ -28,7 +28,7 @@
 * Week 5: Final Project on MongoDB (via Cosmos DB managed service)
 
 ## License
-[MIT-LICENSE.md](LICENSE.md)
+[LICENSE.md](LICENSE.md)
 
 <p align="center">
   <img width="100" height="100" src="/images/NuLogo.png">
