@@ -1,14 +1,18 @@
 /*
-University: Northeastern University- Vancouver, Canada
+Northeastern University- Vancouver, Canada
 Course: ITC 6000
-Group: 2
 Domain: Finance (Banking Sector)
+Group: 2
 
-REPRESENTATIVES:
+Coordinators:
 Abhilash Dikshit 
 Nastaran Zamanian 
 Shamim Sherafati 
 Smit Parmar
+
+Database Details:
+Db Name: bank_ca
+Attributes: bank, customer, employee, branch, account, loan
  */
 --USE DATABASE bank_ca
 USE bank_ca;
@@ -32,6 +36,16 @@ GO
 SELECT * FROM account;
 GO
 SELECT * FROM loan;
+GO
+--LIST ALL PRIMARY KEYS IN DB
+SELECT OBJECT_NAME(parent_object_id), * FROM sys.key_constraints WHERE TYPE = 'PK'
+GO
+--LIST ALL FOREIGN KEYS IN DB
+SELECT
+   OBJECT_NAME(constraint_object_id) AS 'Foreign Key',
+   OBJECT_NAME(parent_object_id) AS 'Table',
+   OBJECT_NAME(referenced_object_id) AS 'Referenced Table'
+FROM sys.foreign_key_columns
 GO
 -- VIEW DEFINATION OF TABLE BANK
 sp_help bank
