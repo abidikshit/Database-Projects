@@ -21,7 +21,7 @@
 * Week 4:
 * Week 5: Final Project on MongoDB (via Cosmos DB managed service)
 
-### License
+## License
 [MIT-LICENSE.md](LICENSE.md)
 
 <p align="center">
