@@ -20,15 +20,11 @@
 - [Week 2 Tables](/Reports/Group_2_W2_Tables.pdf)
 - [Week 3 Report](/Reports/Group_2_W3_Report.pdf)
 
-#### Assignments:
-* Week 1: ERD Report + Diagram
-* Week 2: Creation of DB on SSMS
-* Week 3: Manupulation of tables in DB
-* Week 4: Coming Up Soon
-* Week 5: Final Project on MongoDB (via Cosmos DB managed service)
+#### Presentation:
+- [Final Project: MongoDB](/Presentation/DBMS.pptx)
 
 ## License
-[LICENSE.md](LICENSE.md)
+[MIT LICENSE](LICENSE.md)
 
 <p align="center">
   <img width="100" height="100" src="/images/NuLogo.png">
