@@ -1,18 +1,7 @@
-<div style="display: flex; justify-content: center;">
-  <div style="margin-right: 20px;">
-    <p align="center">
-      <img width="100" height="100" src="/images/mssql.png">
-    </p>
-    <p align="center">MSSQL</p>
-  </div>
-  <div>
-    <p align="center">
-      <img width="100" height="100" src="/images/mongodb.png">
-    </p>
-    <p align="center">MongoDB</p>
-  </div>
-</div>
-
+<p align="center">
+  <img width="100" height="100" src="/images/mssql.png">
+  <img width="100" height="100" src="/images/mongodb.png">
+</p>
 
 ## Database: Bank
 
