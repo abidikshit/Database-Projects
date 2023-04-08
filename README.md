@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="100" height="100" src="/images/mssql.png">
-  <img width="100" height="100" src="/images/mongodb.png">
+  <img width="100" height="100" src="/images/microsoft-sql-server.svg">
+  <img width="100" height="100" src="/images/MongoDB.png">
 </p>
 
 ## Database: Bank
