@@ -1,14 +1,20 @@
-![](/images/NU.png)
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 20px;">
+    <p align="center">
+      <img width="100" height="100" src="/images/mssql.png">
+    </p>
+    <p align="center">MSSQL</p>
+  </div>
+  <div>
+    <p align="center">
+      <img width="100" height="100" src="/images/mongodb.png">
+    </p>
+    <p align="center">MongoDB</p>
+  </div>
+</div>
+
 
 ## Database: Bank
-
-## Contributors:
-1. Abhilash Dikshit 
-2. Shamim Sherafati 
-3. Nastaran Zamanian 
-4. Smit Parmar
-
-## Project Details 
 
 #### Scripts:
 - [Bank Week 2 SQL](/Scripts/Group2_Bank_M2.sql)
